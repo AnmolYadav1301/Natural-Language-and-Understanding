@@ -128,3 +128,7 @@ for w in words:
 
     for n, score in neighbors:
         print(f"{n} ({score:.4f})")
+
+
+# print the vector for other word just put in place of research
+print_word_vector(model, "research", word2idx)
