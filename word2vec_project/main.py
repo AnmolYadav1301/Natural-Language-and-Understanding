@@ -11,7 +11,7 @@ from src.dataset import dataset_stats, plot_wordcloud
 
 from torch.utils.data import DataLoader
 from src.dataset import CBOWDataset
-from utils.evaluation import print_top_words
+from utils.evaluation import print_top_words,print_word_vector
 from utils.analogies import run_analogy
 from src.visualize import plot_embeddings
 from utils.similarity import nearest_neighbors
