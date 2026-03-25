@@ -1,0 +1,13 @@
+# Ignore the large raw data and processed corpus
+word2vec_project/data/raw/
+word2vec_project/data/processed/
+**/*.txt
+
+# Ignore the heavy trained models
+**/*.pth
+**/*.bin
+word2vec_project/models
+
+# Ignore Python cache
+**/__pycache__/
+**/.ipynb_checkpoints/
